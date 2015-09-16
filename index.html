@@ -1,45 +1,74 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Jamie Corley</title>
+<title>Jamie Corley</title>
     <link rel="stylesheet" href="style.css">
     </head>
+
    <body>
-  <h1>JAMIE CORLEY</h1>
-    <h2>Portfolio</h2>
-     <div class="img">
-    <img src="Images/JamieHCorley.jpg" id="image1">
-       </div>
+<div id="header">
+ <h1 id="h1">JAMIE CORLEY</h1>
+ <h2 id="h2">Portfolio</h2>
+                <p id="welcome">Just a note to say...</p>
+                <button type="button" onclick="myFunction()">Click me</button>
+                <script>
+                function myFunction() {
+                    document.getElementById("welcome").innerHTML = "Welcome to my site!";
+                }
+                </script>
+</div>
 
-<p id="para1"> Hello!  My name is Jamie, and I just moved to San Francisco in April. </p>
-   <nav class="group">
-      <ul id="primary-nav">
-        <li class="Facebook">
-          <a href="https://www.facebook.com/jamie.corley.52">
-            <span>Facebook</span>
-          </a>
-        </li>
-        <li class="LinkedIn">
-          <a href="https://www.linkedin.com/pub/jamie-corley/13/968/440">
-            <span>LinkedIn</span>
-          </a>
-        </li>
-        <li class="Twitter">
-          <a href="https://twitter.com/jamiehcorley">
-            <span>Twitter</span>
-          </a>
-        </li>
-        <li class="GitHub">
-          <a href="https://github.com/JamieCorley">
-            <span>GitHub</span>
-          </a>
-        </li>
-        <li class="contact">
-          <a href="#contact">
-            <span>Contact</span>
-          </a>
-        </li>
-      </ul>
+<div id="column-left">              
+<p id="contact-para">Please contact me by completing the form below.</p>
+ <form action="http://formspree.io/yjamie.h.corley@gmail.com" method="POST" id="form1">
+  <p><label>Name:<input type="text" name="name"/></label></p>
+  <p><label>Email:<input type="text" name="email"/></label></p>
+</div>
 
- </body>
+<div id="column-center">
+  <div class="img"></div>
+   <img src="Images/JamieHCorley.jpg" id="image1">
+    <p id="para1"> Thank you for visiting my portfolio site.  Here you will find my current and past projects, interests and hobbies.  Please use the contact form in the upper lefthand corner to message me.</p>
+</div>
+
+<div id="column-right">
+<p id="hobbies">Hobbies</p>
+
+<div class="dropdown">
+  <ul class="dropdown-menu">
+    <li><a href="#">Painting</a></li>
+    <li><a href="#">Yoga</a></li>
+    <li><a href="#">Tennis</a></li>
+  </ul>
+</div>
+</div>
+
+<div id="footer">
+  <nav class="group">
+  <ul id="primary-nav">
+  <li class="Facebook">
+  <a href="https://www.facebook.com/jamie.corley.52">
+  <span>Facebook</span>
+  </a>
+        
+  </li>
+  <li class="LinkedIn">
+  <a href="https://www.linkedin.com/pub/jamie-corley/13/968/440">
+  <span>LinkedIn</span>
+  </a>
+    
+  </li>
+  <li class="Twitter">
+  <a href="https://twitter.com/jamiehcorley">
+  <span>Twitter</span>
+  </a>
+  </li>
+  <li class="GitHub">
+  <a href="https://github.com/JamieCorley">
+  <span>GitHub</span>
+  </a>
+  </ul>
+  </nav>
+</div>
+ </body>
 </html>
