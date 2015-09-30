@@ -1,54 +1,71 @@
 <style>
 
-html {
-    background-color: white;
+.header {
+    text-align:center;
+    border: 4px double #000;
+    margin-right: 250px;
+    margin-left: 250px;
+  /*  margin-bottom: 20px;*/
+    line-height: 1.2em;
+    letter-spacing: 0px;
+    margin-bottom: 40px;
 }
 
-#header {
+#h1 {
+    vertical-align: middle;
+    text-align: center;
+    color: #BDBDBD;
+    font-family: 'Lato', sans-serif;
+    line-height: 1em;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+#h2 {
+    vertical-align: middle;
+    text-align: center;
+    color: #BDBDBD;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    line-height: 1em;
+    letter-spacing: 0px;
+}
+
+#click-button {
     color:white;
     text-align:center;
-}
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    line-height: 1.2em;
+    letter-spacing: 0px;
 
-#welcome {
-    color:gray;
-    font-size: 60;
-    font-style: block;
-    padding-bottom: 15px;
 }
 
 #button {
     background-color: green;
 }
 
-#column-left {
-    line-height:30px;
-  /*  background-color:#eeeeee;*/
+.column-left {
     height:100%;
     width: 33.3%;
     float:left;
-
-}
-#column-center {
-    height:300px;
-    width:33.3%;
-    display: inline-block;
-  /*  padding:10px; */
-    text-align: center;
-}
-
-#column-right {
-    line-height:30px;
-    height:100%;
-    width: 33.3%;
-    float:right;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    margin-left: 50px;
+    color: #BDBDBD;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    line-height: 1.3em;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
 }
 
-#hobbies {
-    border-style: double;
-    border-color: gray;
-   text-align: center;
-   font-style: bold;
-   font-size: 30px;
+#text {
+    color: #BDBDBD;
+    font-size: 75%;
 }
 
 #footer {
@@ -57,12 +74,47 @@ html {
     clear:both;
     text-align:center;
     padding:5px; 
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+#footer a {
+    color: #BDBDBD;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+}
+
+#headernav {
+    background-color:#eeeeee;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:2px; 
+    padding-top: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
 }
 
 nav li {
   display: inline;
-  margin-right: 15px;
+ 
   color: white;
+}
+
+#headernav a {
+    color: #BDBDBD;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
 }
 
 .img { 
@@ -70,57 +122,139 @@ nav li {
 }
 
 #image1 {
-    width: 80%;
+    width: 60%;
 }
 
 #form1 { 
     text-align: left;
+    font-family: 'Lato', sans-serif;
+    color: #BDBDBD;
 }
 
-#contact-para {
+.contactme {    
+    border-bottom: solid #BDBDBD;
+    border-top: solid #BDBDBD;
+    display: block;
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 500px;
+}
+
+#contactintro, #thanksmessage {
+ color: #BDBDBD;
+    font-size: 30px;
+
+}
+
+#text, p#contactpara {
+    color: #BDBDBD;
+    font-size: 75%;
+}
+
+#newsPara {
     text-align: left;
-    line-height: 1.2em;
-    width: 50%;
+    font-family: 'Lato', sans-serif;
+    color: #BDBDBD;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 20px;
 }
 
-#h1 {
-    vertical-align: middle;
-    text-align: center;
-    font-size: 60;
-    font-style: block;
-    color: #BDBDBD;
-  /*  padding-bottom: 1px;*/
-    font-family: "proxima-nova";
-    line-height: 1em;
-    letter-spacing: 0px;
-    font-weight: 400;
+#speedReadButton {
+  border-radius: 15px;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  font-size: 16px;
+  background: gray;
+  padding: 5px 10px 5px 10px;
+  /*text-decoration: center;
+  vertical-align: middle;*/
+  width: 10%;
+  text-align: center;
+    margin-left: 520px;
+    margin-right: 520px;
 }
 
-#h2 {
-    vertical-align: middle;
-    text-align: center;
-    font-size: 30;
+#curated {
     color: #BDBDBD;
-    padding-bottom: 10px;
-    font-family: "proxima-nova";
-    line-height: 1em;
-    letter-spacing: 0px;
-    font-weight: 400;
-    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: .8em;
 }
 
-#para1 {
-    text-align: center;
-    color: #BDBDBD;
-    font-family: Cabin,Helvetica,Arial,sans-serif;
-    font-weight: normal;
-    line-height: 1.8em;
-    font-family: "proxima-nova";
-    line-height: 1.7em;
-    letter-spacing: 0px;
-    font-weight: 400;
-    font-style: normal;
+
+ul#floating-boxes>li, .button {
+    display: inline-block;
+    font-family: "Lato", Arial, sans-serif;
     font-size: 16px;
+    color: grey;  
+    width: 480px;
+    height: 530px;
+    padding: 10px;
+    margin: 20px;
+    vertical-align: top;
+    text-align: center;
 }
+
+ul#floating-boxes p,
+ul#floating-boxes ul {
+    text-align: left;
+}
+
+ul#floating-boxes li ul {
+    margin:10px;
+    padding: 5px;
+}
+
+/*#footer {
+    background-color:#eeeeee;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+#footer a {
+    color: #BDBDBD;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+}*/
+
+#headernav, #footer {
+    background-color:#eeeeee;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:2px; 
+    padding-top: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#headernav a, #footer a {
+    color: #BDBDBD;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+}
+
+nav li {
+  display: inline;
+  color: white;
+}
+
 </style>
 

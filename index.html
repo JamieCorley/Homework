@@ -2,45 +2,33 @@
 <html>
   <head>
 <title>Jamie Corley</title>
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+
+<div class="header">
+   <h1 id="h1">JAMIE CORLEY</h1>
+   <h2 id="h2">Portfolio + News</h2>
+</div>
     </head>
 
    <body>
-<div id="header">
- <h1 id="h1">JAMIE CORLEY</h1>
- <h2 id="h2">Portfolio</h2>
-                <p id="welcome">Just a note to say...</p>
-                <button type="button" onclick="myFunction()">Click me</button>
-                <script>
-                function myFunction() {
-                    document.getElementById("welcome").innerHTML = "Welcome to my site!";
-                }
-                </script>
+
+<div id="headernav">
+          <ul>
+            <li>
+              <a class="headernav" href="index.html" style="color: #BDBDBD">home</a>
+              <a class="headernav" href="contact.html"style="color: #BDBDBD;">contact</a>
+              <a class="headernav" href="news_index.html"style="color: #BDBDBD;">curation</a>
+              <a class="headernav" href="about.html" style="color: #BDBDBD;">about</a>
+            </li>
+          </ul>
 </div>
 
-<div id="column-left">              
-<p id="contact-para">Please contact me by completing the form below.</p>
- <form action="http://formspree.io/yjamie.h.corley@gmail.com" method="POST" id="form1">
-  <p><label>Name:<input type="text" name="name"/></label></p>
-  <p><label>Email:<input type="text" name="email"/></label></p>
+<div class="column-left">    
+ <img src="Images/JamieHCorley.jpg" id="image1"> 
+   <p>Thank you for visiting my portfolio site.  Here you will find my current and past projects, interests, hobbies and a list of articles I'm reading daily.  Please use the contact link above to message me.  Thank you!</p>  
 </div>
 
 <div id="column-center">
-  <div class="img"></div>
-   <img src="Images/JamieHCorley.jpg" id="image1">
-    <p id="para1"> Thank you for visiting my portfolio site.  Here you will find my current and past projects, interests and hobbies.  Please use the contact form in the upper lefthand corner to message me.</p>
-</div>
-
-<div id="column-right">
-<p id="hobbies">Hobbies</p>
-
-<div class="dropdown">
-  <ul class="dropdown-menu">
-    <li><a href="#">Painting</a></li>
-    <li><a href="#">Yoga</a></li>
-    <li><a href="#">Tennis</a></li>
-  </ul>
-</div>
 </div>
 
 <div id="footer">
@@ -69,6 +57,6 @@
   </a>
   </ul>
   </nav>
-</div>
  </body>
+ </div>
 </html>
