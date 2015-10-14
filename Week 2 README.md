@@ -1,1 +1,0 @@
-My homework took a bit longer than expected so I haven't completed a form yet.  However, I was able to troubleshoot adding CSS to my site and have a strong grasp of CSS selectors. 
