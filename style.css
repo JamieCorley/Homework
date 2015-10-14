@@ -19,6 +19,7 @@
     line-height: 1em;
     letter-spacing: 1px;
     font-weight: lighter;
+    font-size: 50px;
 }
 
 #h2 {
@@ -160,19 +161,18 @@ nav li {
     font-size: 20px;
 }
 
-#speedReadButton {
+#speedread {
   border-radius: 15px;
   font-family: 'Lato', sans-serif;
   color: black;
-  font-size: 16px;
-  background: gray;
+  font-size: 15px;
+  background: #9AD9D0;
   padding: 5px 10px 5px 10px;
   /*text-decoration: center;
   vertical-align: middle;*/
   width: 10%;
   text-align: center;
-    margin-left: 520px;
-    margin-right: 520px;
+   margin-left: 35px;
 }
 
 #curated {
@@ -190,8 +190,8 @@ ul#floating-boxes>li, .button {
     font-family: "Lato", Arial, sans-serif;
     font-size: 16px;
     color: grey;  
-    width: 480px;
-    height: 530px;
+    width: 280px;
+    height: 330px;
     padding: 10px;
     margin: 20px;
     vertical-align: top;
