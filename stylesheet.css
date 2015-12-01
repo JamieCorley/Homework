@@ -1,8 +1,9 @@
 <style>
 
-/*body {
-    max-width: 50%;
-}*/
+#body  {
+    color: #BDBDBD;
+    font-family: 'Lato', sans-serif;
+}
 
 .header {
     text-align:center;
@@ -12,6 +13,7 @@
     line-height: 1.2em;
     letter-spacing: 0px;
     margin-bottom: 40px;
+border: solid;
 }
 
 #h1 {
@@ -22,7 +24,7 @@
     line-height: 1em;
     letter-spacing: 1px;
     font-weight: lighter;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 #h2 {
@@ -93,32 +95,28 @@
     font-weight: lighter;
 }
 
-#headernav {
-    background-color:#eeeeee;
-    color:white;
-    clear:both;
+#headernavigation {
+    /*color:blue;
+    clear:both;*/
     text-align:center;
-    padding:2px; 
-    padding-top: 10px;
-    font-size: 15px;
-    margin-bottom: 20px;
+    padding:1px; 
+    padding-top: 5px;
+    margin-bottom: 5px;
 }
 
 nav li {
   display: inline;
- 
   color: white;
 }
 
-#headernav a {
-    color: #BDBDBD;
+#headernavigation a {
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: 13px;
+    font-size: 18px;
     padding-left: 30px;
     padding-right: 30px;
     font-family: 'Lato', sans-serif;
     font-weight: lighter;
+
 }
 
 .img { 
@@ -185,10 +183,10 @@ nav li {
     margin-left: 250px;
     color: #BDBDBD;
     font-family: 'Lato', sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: lighter;
     text-align: center;
-    line-height: .8em;
+    /*line-height: .8em;*/
 }
 
 #boxes {
@@ -201,7 +199,7 @@ margin-right: 50px;
 ul#floating-boxes>li, .button {
     display: inline-block;
     font-family: "Lato", Arial, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: grey;  
     width: 280px;
     height: 330px;
@@ -267,6 +265,21 @@ ul#floating-boxes li ul {
 nav li {
   display: inline;
   color: white;
+}
+
+/*Contact page */
+#contactpage {
+    height:300px;
+   width: 400px;
+    border-bottom: 2px solid #efefef;
+    border-top: 2px solid #efefef;
+    margin: 100px;
+    padding-bottom: 10px;
+}
+
+#text {
+    color: #BDBDBD;
+    font-size: 75%;
 }
 
 </style>
